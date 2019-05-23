@@ -1,0 +1,20 @@
+{
+    "name": "http://mysite.com",
+    "mailTransport": {
+	"host": "smtp.mail.com",
+	"port": 465,
+	"secure": true,
+	"auth": {
+	    "user": "robot@mail.com",
+	    "pass": "Haliluya"
+	}
+    },
+    "from": "\"My site robot\" <robot@mail.com>",
+    "to": [
+	"first_admin@mail.com",
+	"second_admin@mail.com"
+    ],
+    "warningLevel": 50,
+    "dangerLevel": 80,
+    "fatalLevel": 95
+}
